@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Main" parent="Theme.Main.Hallow"/>
+
+    <style name="Theme.Main.Hallow">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="colorPrimary">@color/primaryHallow</item>
+        <item name="colorPrimaryVariant">@color/primaryVariantHallow</item>
+        <item name="colorSecondary">@color/secondaryHallow</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariantHallow</item>
+        <item name="colorTertiary">@color/tertiaryHallow</item>
+
+        <item name="colorSurface">@color/surfaceHallow</item>
+        <item name="colorError">@color/errorHallow</item>
+
+        <item name="colorGrey1">@color/grey1Hallow</item>
+        <item name="colorGrey2">@color/grey2Hallow</item>
+        <item name="colorGrey3">@color/grey3Hallow</item>
+        <item name="colorGrey4">@color/grey4Hallow</item>
+
+        <item name="colorOnPrimary">@color/onPrimaryHallow</item>
+        <item name="colorOnPrimarySubdued">@color/onPrimarySubduedHallow</item>
+        <item name="colorOnSecondary">@color/onSecondaryHallow</item>
+        <item name="colorOnSecondarySubdued">@color/onSecondaryHallowSubdued</item>
+        <item name="colorOnTertiary">@color/onTertiaryHallow</item>
+        <item name="colorOnBackground">@color/onBackgroundHallow</item>
+        <item name="colorOnBackgroundSubdued">@color/onBackgroundSubduedHallow</item>
+        <item name="colorOnSurface">@color/onSurfaceHallow</item>
+        <item name="colorOnError">@color/onErrorHallow</item>
+
+        <item name="android:colorEdgeEffect">?attr/colorSecondaryVariant</item>
+    </style>
+
+</resources>

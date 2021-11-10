@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Corner Radius -->
+    <dimen name="large_corner_radius">12dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_0">0dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_10">8dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_28">28dp</dimen>
+
+</resources>

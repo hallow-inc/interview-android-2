@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Main" parent="@style/Theme.Base" />
+
+    <style name="Theme.Base" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorBackground">@color/backgroundColor</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:navigationBarColor">@color/backgroundColor</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorSecondary</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Body1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Description</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Detail</item>
+    </style>
+
+</resources>

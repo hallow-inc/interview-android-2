@@ -1,0 +1,43 @@
+apply plugin: 'checkstyle'
+apply from: "$rootDir/config/ktlint/ktlint.gradle"
+apply from: "$rootDir/config/detekt/detekt.gradle"
+
+task checkstyle(type: Checkstyle) {
+    ignoreFailures = false
+    configFile file("$rootDir/config/checkstyle/checkstyle.xml")
+    source 'src'
+    include '**/main/**/*.java'
+    exclude '**/gen/**'
+    exclude '**/gdata/**'
+    exclude '**/apache/**'
+
+    classpath = files()
+}
+
+checkstyle {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    configurations {
+        checkstyle
+    }
+
+    dependencies {
+        checkstyle 'com.puppycrawl.tools:checkstyle:8.41.1'
+        checkstyle 'com.github.sevntu-checkstyle:sevntu-checks:1.39.0'
+    }
+}
+
+task checkstyleReport {
+    doLast {
+        if (file("$buildDir/reports/checkstyle/checkstyle.xml").exists()) {
+            ant.xslt(in: "$buildDir/reports/checkstyle/checkstyle.xml",
+                style: "$rootDir/config/checkstyle/checkstyle-noframes-sorted.xsl",
+                out: "$buildDir/reports/checkstyle/checkstyle.html")
+        }
+    }
+}
+
+check.dependsOn 'checkstyle', 'checkstyleReport'

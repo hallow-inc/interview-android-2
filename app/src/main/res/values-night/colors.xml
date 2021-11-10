@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--DARK COLOR THEME-->
+    <color name="primaryHallow">@color/white</color>
+    <color name="primaryVariantHallow">@color/grey</color>
+    <color name="secondaryHallow">@color/lighterPurple</color>
+    <color name="secondaryVariantHallow">@color/palerPurple</color>
+    <color name="tertiaryHallow">@color/brightGreen</color>
+
+    <color name="grey1Hallow">#242228</color>
+    <color name="grey2Hallow">#363338</color>
+    <color name="grey3Hallow">#5D5962</color>
+    <color name="grey4Hallow">#928C95</color>
+
+    <color name="backgroundHallow">@color/black</color>
+    <color name="surfaceHallow">@color/grey1Hallow</color>
+    <color name="errorHallow">#EB3751</color>
+
+    <color name="onPrimaryHallow">@color/black</color>
+    <color name="onPrimarySubduedHallow">@color/blackish</color>
+    <color name="onSecondaryHallow">@color/white</color>
+    <color name="onSecondaryHallowSubdued">@color/lightGrey</color>
+    <color name="onTertiaryHallow">@color/white</color>
+    <color name="onBackgroundHallow">@color/white</color>
+    <color name="onBackgroundSubduedHallow">@color/darkGrey</color>
+    <color name="onSurfaceHallow">@color/white</color>
+    <color name="onErrorHallow">@color/white</color>
+
+    <color name="navigationBarColor">@color/black</color>
+    <color name="backgroundColor">@color/black</color>
+
+</resources>

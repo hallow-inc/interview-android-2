@@ -1,0 +1,102 @@
+<resources>
+
+    <!--Typography-->
+
+    <!-- H1s are used to highlight prominent functions / content -->
+    <style name="TextAppearance.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/radial_bold</item>
+        <item name="android:fontFamily">@font/radial_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- H2s are used to highlight page titles including page titles for blurred backgrounds. -->
+    <style name="TextAppearance.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/radial_bold</item>
+        <item name="android:fontFamily">@font/radial_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- H3s are used to highlight page titles including page titles for blurred backgrounds. -->
+    <style name="TextAppearance.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/radial_bold</item>
+        <item name="android:fontFamily">@font/radial_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- H4s are used to notate collections / chapter views. Also used in featured thumbnail view. -->
+    <style name="TextAppearance.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/radial_semibold</item>
+        <item name="android:fontFamily">@font/radial_semibold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- H5s are used for session / prayer titles. They are also used in page titles in the nav bar. -->
+    <style name="TextAppearance.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/radial_semibold</item>
+        <item name="android:fontFamily">@font/radial_semibold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- H6s are used to notate secondary functions within a page. -->
+    <style name="TextAppearance.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/radial_semibold</item>
+        <item name="android:fontFamily">@font/radial_semibold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Body 1 style is used for blocks of text outside of descriptions. This usually applies to user generated content. -->
+    <style name="TextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Body 2 style is used for text blocks such as terms and policies. Legibility is secondary. -->
+    <style name="TextAppearance.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Body 3 style is used for text blocks such as terms and policies. Legibility is secondary. -->
+    <style name="TextAppearance.Body3" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Description style is used for thumbnail description text as well as collection / chapter descriptions. -->
+    <style name="TextAppearance.Description" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Captions are used for prayer / session thumbnails bylines. -->
+    <style name="TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Overline is used to notate categories. -->
+    <style name="TextAppearance.Detail" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:fontFamily">@font/neue_montreal_regular</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+</resources>

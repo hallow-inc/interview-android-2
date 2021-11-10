@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/streak"
+    app:startDestination="@id/streakFragment">
+
+    <fragment
+        android:id="@+id/streakFragment"
+        android:name="com.hallow.interview.scenes.StreakFragment"
+        android:label="fragment_streak"
+        tools:layout="@layout/fragment_streak">
+
+    </fragment>
+</navigation>

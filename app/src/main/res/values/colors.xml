@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Black Alpha Colors-->
+    <color name="black_10">#1A000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_80">#CC000000</color>
+
+    <!--Grey Alpha Colors-->
+    <color name="grey_10_trans">#1A2C2C2C</color>
+    <color name="light_grey_60_trans">#99B9B4BB</color>
+
+    <!--White Alpha Colors-->
+    <color name="white_20_trans">#33FFFFFF</color>
+    <color name="white_60_trans">#99FFFFFF</color>
+
+    <!--Collection Colors-->
+    <color name="teal">#00CAE8</color>
+    <color name="salmon">#FF5B78</color>
+    <color name="warmPurple">#D498D4</color>
+    <color name="blue">#3C6BFB</color>
+    <color name="darkBlue">#041B42</color>
+
+    <!--Other Colors-->
+    <color name="aqua">#5AE0AF</color>
+    <color name="aqua40">#B35AE0AF</color>
+    <color name="pillGreen">#B7E5CF</color>
+    <color name="pillBlue">#CFE6F9</color>
+    <color name="pillRed">#F1E7F9</color>
+    <color name="palePink">#FFE6F2</color>
+    <color name="cream">#FFC9B6</color>
+
+    <!--Color (universal)-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#030303</color>
+    <color name="blackish">#3a3a3a</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentWhite">#00FFFFFF</color>
+    <color name="green">#25C389</color>
+    <color name="brightGreen">#00D689</color>
+    <color name="grey">#B9B4BB</color>
+    <color name="lightGrey">#F1F0F2</color>
+    <color name="darkGrey">#767676</color>
+    <color name="red">#DD223D</color>
+    <color name="linkBlue">#3366BB</color>
+
+    <color name="palePurple">#F1E7F9</color>
+    <color name="palerPurple">#DDC4F0</color>
+    <color name="lightPurple">#9956D3</color>
+    <color name="lighterPurple">#9131E6</color>
+    <color name="purple">#6D0EC1</color>
+    <color name="darkPurple">#490089</color>
+    <color name="darkestPurple">#300D49</color>
+    <color name="pink">#CF1A96</color>
+    <color name="darkerPink">#B51F86</color>
+
+    <color name="subscriptionOrange">#f2755f</color>
+
+    <!--LIGHT COLOR THEME-->
+    <color name="primaryHallow">@color/black</color>
+    <color name="primaryVariantHallow">@color/blackish</color>
+    <color name="secondaryHallow">@color/purple</color>
+    <color name="secondaryVariantHallow">@color/palePurple</color>
+    <color name="tertiaryHallow">@color/brightGreen</color>
+
+    <color name="grey1Hallow">#F6F5F8</color>
+    <color name="grey2Hallow">#EDEAEF</color>
+    <color name="grey3Hallow">#D9D5DD</color>
+    <color name="grey4Hallow">#7A757E</color>
+
+    <color name="backgroundHallow">@color/white</color>
+    <color name="surfaceHallow">@color/white</color>
+    <color name="errorHallow">@color/red</color>
+
+    <color name="onPrimaryHallow">@color/white</color>
+    <color name="onPrimarySubduedHallow">@color/lightGrey</color>
+    <color name="onSecondaryHallow">@color/white</color>
+    <color name="onSecondaryHallowSubdued">@color/lightGrey</color>
+    <color name="onTertiaryHallow">@color/white</color>
+    <color name="onBackgroundHallow">@color/black</color>
+    <color name="onBackgroundSubduedHallow">@color/grey</color>
+    <color name="onSurfaceHallow">@color/black</color>
+    <color name="onErrorHallow">@color/white</color>
+
+    <color name="navigationBarColor">@color/transparent</color>
+    <color name="backgroundColor">@color/white</color>
+
+</resources>

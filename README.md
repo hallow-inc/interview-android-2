@@ -3,7 +3,7 @@
 We will be creating a calendar view that displays streak information for a given user.
 Utilizing the provided base code, create an app that mimics the UI in the following image:
 
-<img src="https://hallow.app/interview/ios_template.png" width="250">
+<img src="https://hallow.app/interview/streak_template.png" width="250">
 
 ### Requirements
 * The data must be dynamic and must come from the provided API endpoint:
@@ -15,3 +15,4 @@ Utilizing the provided base code, create an app that mimics the UI in the follow
 ### Notes
 * Most of the base code has been provided for you in this repository, feel free to use as much or as little as you would like
 * For networking, Retrofit and other libs have been pre-added for your use
+* Read through all TODOs and look through all files before starting

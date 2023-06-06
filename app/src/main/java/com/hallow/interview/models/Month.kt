@@ -13,18 +13,18 @@ import java.time.format.TextStyle
 import java.util.*
 
 class Month(
-        val month: Calendar,
-        val dayInput: List<Day>
+    val month: Calendar,
+    val dayList: List<Day>
 ) {
 
-    constructor(date: Date, dayInput: List<Day>) : this(
-            month = date.toCalendar().apply {
-                set(Calendar.DATE, 1)
-                set(Calendar.HOUR, 0)
-                set(Calendar.MINUTE, 0)
-                set(Calendar.SECOND, 0)
-            },
-            dayInput = dayInput
+    constructor(date: Date, dayList: List<Day>) : this(
+        month = date.toCalendar().apply {
+            set(Calendar.DATE, 1)
+            set(Calendar.HOUR, 0)
+            set(Calendar.MINUTE, 0)
+            set(Calendar.SECOND, 0)
+        },
+        dayList = dayList
     )
 
     private val days = SparseArray<Day>()
@@ -34,7 +34,8 @@ class Month(
 
     val name: String
         get() = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            Month.of(month.get(Calendar.MONTH) + 1).getDisplayName(TextStyle.FULL, Locale.getDefault())
+            Month.of(month.get(Calendar.MONTH) + 1)
+                .getDisplayName(TextStyle.FULL, Locale.getDefault())
         } else {
             String.format(Locale.US, "%tB", month)
         }
@@ -50,7 +51,7 @@ class Month(
             val date = Calendar.getInstance().apply {
                 set(year, month.get(Calendar.MONTH), i, 0, 0, 0)
             }.time
-            val day = dayInput.find { date.isSameDay(it.date) } ?: Day(date)
+            val day = dayList.find { date.isSameDay(it.date) } ?: Day(date)
             days.put(i, day)
         }
     }

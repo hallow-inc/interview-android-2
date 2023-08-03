@@ -69,6 +69,7 @@ class DayView(context: Context, attrs: AttributeSet? = null, defStyle: Int = -1)
             Day.StreakPart.START -> fillRect(canvas, width.toFloat() / 2, width.toFloat(), fillColor, paint)
             Day.StreakPart.MIDDLE -> fillRect(canvas, 0f, width.toFloat(), fillColor, paint)
             Day.StreakPart.END -> fillRect(canvas, 0f, width.toFloat() / 2, fillColor, paint)
+            null -> {}
         }
         if (isToday) {
             fillCircleStrokeBorder(

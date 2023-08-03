@@ -14,20 +14,18 @@ import java.util.*
 
 class Month(
     val month: Calendar,
-    val dayList: List<Day>
+    val days: List<Day>
 ) {
 
-    constructor(date: Date, dayList: List<Day>) : this(
+    constructor(date: Date, days: List<Day>) : this(
         month = date.toCalendar().apply {
             set(Calendar.DATE, 1)
             set(Calendar.HOUR, 0)
             set(Calendar.MINUTE, 0)
             set(Calendar.SECOND, 0)
         },
-        dayList = dayList
+        days = days
     )
-
-    private val days = SparseArray<Day>()
 
     val year: Int
         get() = month.get(Calendar.YEAR)
@@ -45,18 +43,6 @@ class Month(
 
     val daysInMonth: Int
         get() = month.time.lastDayOfMonth().getDayOfMonth()
-
-    init {
-        for (i in 1..this.daysInMonth) {
-            val date = Calendar.getInstance().apply {
-                set(year, month.get(Calendar.MONTH), i, 0, 0, 0)
-            }.time
-            val day = dayList.find { date.isSameDay(it.date) } ?: Day(date)
-            days.put(i, day)
-        }
-    }
-
-    fun getDay(index: Int): Day = this.days.get(index)
 
     override fun toString() = month.time.toString()
 }

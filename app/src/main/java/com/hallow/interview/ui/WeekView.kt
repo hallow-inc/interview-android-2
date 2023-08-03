@@ -10,7 +10,7 @@ import com.hallow.interview.models.Day
 
 class WeekView(context: Context, attrs: AttributeSet? = null) : LinearLayout(context, attrs) {
 
-    constructor(days: List<Day?>, context: Context) : this(context) {
+    constructor(context: Context, days: List<Day?>) : this(context) {
         layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT).apply {
             weight = 1f
             setMargins(7.toDp(context), 0, 7.toDp(context), 0)

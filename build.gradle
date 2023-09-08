@@ -3,7 +3,7 @@
 buildscript {
     ext.androidPluginVersion = '7.2.2'
     ext.navVersion = '2.5.3'
-    ext.kotlinVersion = '1.8.10'
+    ext.kotlinVersion = '1.9.10'
     repositories {
         google()
         jcenter()

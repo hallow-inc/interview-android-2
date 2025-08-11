@@ -11,7 +11,7 @@ import com.hallow.interview.models.Month
 import com.hallow.interview.utilities.KotlinEpoxyHolder
 import java.util.*
 
-@EpoxyModelClass(layout = R.layout.month_view)
+@EpoxyModelClass
 abstract class MonthView : EpoxyModelWithHolder<MonthView.Holder>() {
 
     class Holder : KotlinEpoxyHolder() {
@@ -21,6 +21,8 @@ abstract class MonthView : EpoxyModelWithHolder<MonthView.Holder>() {
 
     @EpoxyAttribute
     lateinit var month: Month
+
+    override fun getDefaultLayout(): Int = R.layout.month_view
 
     override fun bind(holder: Holder) {
         holder.apply {

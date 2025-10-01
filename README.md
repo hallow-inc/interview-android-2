@@ -3,7 +3,7 @@
 We will be creating a calendar view that displays streak information for a given user.
 Utilizing the provided base code, create an app that mimics the UI in the following image:
 
-<img src="https://github.com/hallow-inc/interview-android-2/streak_template.png" width="250">
+<img src="https://github.com/hallow-inc/interview-android-2/blob/main/streak_template.png" width="250">
 
 ### Requirements
 * The data must be dynamic and must come from the provided API endpoint:
